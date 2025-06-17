@@ -1,2 +1,13 @@
-hollowpoint/
 
+
+# Ask the user for their name
+name = input("What's your name? ")
+
+# Ask the user for their favorite color
+favorite_color = input("What's your favorite color? ")
+
+# Create a personalized message using their input
+message = f"Hello, {name}! Your favorite color, {favorite_color}, is truly wonderful!"
+
+# Print the message
+print(message)
